@@ -1,1 +1,3 @@
-# Powershell-ADB
+This script will first check if ADB is already installed. If not, it will download the latest version of ADB from the official Google repository, extract it to a temporary folder, and add the ADB executable to the system PATH. Finally, it will verify that ADB is installed correctly and test the connection to any connected Android devices.
+
+Once the script has finished running, you should be able to use the standard ADB commands to interact with your Android device, such as adb shell pm list devices to list connected devices, adb devices to check the device status, and adb push and adb pull to transfer files between the computer and the device.
